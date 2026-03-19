@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Dados</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aliceblue;
+        }
+        td, th {
+            padding: 5px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horário das Aulas - DSM1</h1>
+    <p>Tabela dos horários das aulas do DSM1</p>
+
+    <table border="2">
+        <caption>Horário semanal das aulas do DSM1</caption>
+        <thead>
+            <tr>
+                <th scope="col">Horário</th>
+                <th scope="col">Segunda</th>
+                <th scope="col">Terça</th>
+                <th scope="col">Quarta</th>
+                <th scope="col">Quinta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               <th scope="row">18h30 às 19h20</th>
+                <td>DW1</td> 
+                <td>SORC</td> 
+                <td>Banco de Dados</td> 
+                <td>Banco de Dados</td>  
+            </tr>
+            <tr>
+               <th scope="row">19h20 às 20h10</th>
+               <td>ES1</td>
+               <td>SORC</td>
+               <td>Banco de Dados</td>
+               <td>Design Digital</td>
+            </tr>
+            <tr>
+               <th scope="row">20h20 às 21h00</th>
+               <td>ES1</td>
+               <td>DW1</td>
+               <td>Banco de Dados</td>
+               <td>Design Digital</td>
+            </tr>
+            <tr>
+               <th scope="row"  colspan="5">21h00 às 21h20 (Intervalo)</th>
+            </tr>
+            <tr>
+               <th scope="row">21h20 às 22h10</th>
+               <td>ES1</td>
+               <td>DW1</td>
+               <td>SORC</td>
+               <td>Design Digital</td>
+            </tr>
+            <tr>
+               <th scope="row">22h20 às 23h00</th>
+               <td>ES1</td>
+               <td>DW1</td>
+               <td>SORC</td>
+               <td>Design Digital</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5">1° Semestre DSM1 2026 - Fatec Registro</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
