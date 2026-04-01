@@ -1,0 +1,84 @@
+/* Comentário no CSS */
+/* p -> seletor <- */
+/* Seletor de elemento */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Espaço interno do elemento */
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    /* Margem Inferior */
+    margin-bottom: 15px;
+    color: rgb(201, 143, 255);
+    padding: 10px;
+}
+
+section p{
+   color: rgb(35, 223, 18);
+}
+
+/* Seletor de classe */
+.destaque {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    /* border 5px (espessura) solid (tipo da borda) e a cor */
+    border-left: 5px solid rgb(207, 116, 243);
+    border-radius: 3px;
+}
+
+/* Seletor de ID */
+#unico {
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100px;
+    /* width é a largura */
+    /* height é a altura */
+}
+
+.post {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.post h2 {
+    color: #8cc9e4;
+}
+
+/* Agrupamento de seletores */
+h3, h4, h5 {
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.observacoes {
+    background-color: #ee3c3c;
+    padding: 20px;
+    border: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+.observacoes h2 {
+    color: #8cc9e4;
+}

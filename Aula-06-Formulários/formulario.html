@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro de aluno - Fatec</title>
+</head>
+<body>
+    <header>
+    <h1>Cadastro de Aluno - CPS</h1>
+    <p>Preencha este formulário para efetuarmos sua matrícula - FATEC</p>
+    </header>
+    <main>
+        <section>
+          <form action="" method="POST">
+            <fieldset>
+               <legend>Dados Pessoais</legend>
+               <label for="nome">Nome Completo:</label><br>
+               <input type="text" name="nome" id="nome" placeholder="Insira o seu Nome Completo"
+               required><br>
+               <label for="telefone">Telefone:</label><br>
+               <input type="tel" name="telefone" id="telefone" placeholder="Insira seu n° de telefone"><br>
+               <label for="email">Email:</label><br>
+               <input type="email" name="Email" id="email"
+               placeholder="Insira seu E-mail" 
+               required>
+               <br>
+               <label for="Password">Senha:</label><br>
+               <input type="password" name="password"
+               id="password" placeholder="Insira sua Senha"
+               required>
+               <br>
+               <label for="nascimento">Data de nascimento:</label><br>
+               <input type="date" name="nascimento"
+               id="nascimento"><br>
+               <label for="sexo">Sexo:</label><br>
+               <input type="radio" name="sexo" id="masc"
+               value="m">Masculino
+               <input type="radio" name="sexo" id="fem"
+               value="f">Feminino
+            </fieldset>
+            <fieldset>
+                <legend>Dados acadêmicos</legend>
+                <label for="Curso">Selecione o curso desejado</label><br>
+                <select name="Curso" id="Curso">
+                   <option value="DSM">DSM (Desenvolvimento de Software Multiplataforma)</option>
+                   <option value="ADS">ADS (Análise e Desenvolvimento de Sistemas)</option>
+                   <option value="Jogos Digitais">Jogos Digitais</option>
+                </select><br>
+                <label for="Período">Selecione o Período:</label><br>
+                <select name="Período" id="Período">
+                    <option value="Manhã">Manhã</option>
+                    <option value="Noturno">Noturno</option>
+                </select><br>
+                <label for="Currículo">Currículo de Conclusão do Ensino Médio:</label><br>
+                <input type="file" name="Currículo" id="Currículo de Conclusão do Ensino Médio"
+                required><br>
+                <label for="Histórico Escolar">Histórico Escolar:</label><br>
+                <input type="file" nome="Histórico" id="Histórico Escolar"><br><br>
+                <label for="observacoes">Observações</label><br>
+                <textarea rown="4" cols="40" name="observacoes"
+                id="observacoes" placeholder="Alguma observação? Deixe sua mensagem:">
+                </textarea><br><br>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+
+            </fieldset>
+          </form>
+        </section>  
+    </main>
+</body>
+</html>
