@@ -1,0 +1,64 @@
+.titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.sobre {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    text-align: left;
+}
+
+section ul li {
+    color: rgb(255, 255, 255);
+}
+
+.lista {
+    transition: all 0.5 ease;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.habilidade {
+    background-color: #76c4f1;
+    border: 2px solid #09077a;
+    padding: 10px;
+}
+
+.habilidade:hover {
+    color: white;
+    background-color: blue;
+    transform: scale(0.89);
+}
+
+.valor {
+    border-style: groove;
+    background-color: rgb(248, 181, 248);
+    color: black;
+}
+
+.valor:hover {
+    color: white;
+    background-color: rgb(219, 90, 219);
+    transform: scale(1.05);
+}
+
+.rodape {
+    background-color: lightgray;
+    padding: 15px;
+}
+
+h5 + p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
